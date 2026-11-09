@@ -1,0 +1,2 @@
+Model,Hardware,Reviews Processed,Total Inference Seconds,Seconds Per Review,Includes Tokenization
+Experiment 1,Tesla T4,100,0.30404695300012463,0.0030404695300012465,False

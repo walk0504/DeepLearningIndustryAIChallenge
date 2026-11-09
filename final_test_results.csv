@@ -1,0 +1,2 @@
+Selected Model,Test Reviews,Accuracy,Negative Precision,Negative Recall,Negative F1
+Experiment 1 - Last 2 layers unfrozen,4000,0.91575,0.9007228915662651,0.9345,0.9173006134969325
