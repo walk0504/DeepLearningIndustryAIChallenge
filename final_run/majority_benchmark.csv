@@ -1,0 +1,3 @@
+Split,Accuracy,Negative Precision,Negative Recall,Negative F1,Flag Rate
+validation,0.5,0.5,1.0,0.6666666666666666,1.0
+test,0.5,0.5,1.0,0.6666666666666666,1.0

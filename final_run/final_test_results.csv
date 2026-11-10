@@ -1,0 +1,4 @@
+Model,Test reviews,Accuracy,Negative Precision,Negative Recall,Negative F1,Flag Rate,Neg recall 95% CI,Neg precision 95% CI,Neg F1 95% CI
+Majority benchmark,4000,0.5,0.5,1.0,0.6666666666666666,1.0,1.000 to 1.000,0.485 to 0.516,0.653 to 0.681
+Experiment 1 at threshold 0.50,4000,0.90275,0.9255150554675119,0.876,0.9000770613922425,0.47325,0.862 to 0.891,0.914 to 0.937,0.890 to 0.910
+Experiment 1 at threshold 0.42 (chosen),4000,0.90275,0.9013452914798207,0.9045,0.9029198901921637,0.50175,0.891 to 0.916,0.888 to 0.914,0.894 to 0.912

@@ -1,0 +1,5 @@
+,Negative F1,Negative F1,Negative Recall,Negative Recall,Negative Precision,Negative Precision,Accuracy,Accuracy
+,mean,std,mean,std,mean,std,mean,std
+Run,,,,,,,,
+Baseline,0.8595,0.0037,0.8707,0.013,0.8487,0.0059,0.8577,0.0025
+Experiment 1,0.8777,0.0117,0.845,0.0236,0.9132,0.0037,0.8823,0.0095

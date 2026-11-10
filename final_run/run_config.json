@@ -1,0 +1,28 @@
+{
+  "model": "distilbert-base-uncased",
+  "seed": 42,
+  "extra_seeds": [
+    7,
+    123
+  ],
+  "train_size": 16000,
+  "val_size": 2000,
+  "test_size": 4000,
+  "epochs": 3,
+  "train_batch": 16,
+  "base_lr": 0.0002,
+  "base_max_len": 128,
+  "checkpoint_selection": "lowest validation loss (load_best_model_at_end)",
+  "target_neg_recall": 0.9,
+  "selected_run": "Experiment 1",
+  "chosen_threshold": 0.416347473859787,
+  "n_bootstrap": 2000,
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "datasets": "4.8.5",
+    "scikit-learn": "1.6.1",
+    "python": "3.13.16"
+  },
+  "gpu": "Tesla T4"
+}
