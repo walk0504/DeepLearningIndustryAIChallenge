@@ -36,3 +36,14 @@ The dataset, the cleaning and deduplication, the balanced 16,000 / 2,000 sample 
 2. **Check `SELECTED_RUN`** after Section 5. It is set to Experiment 1. If the results change that choice, edit it and re-run from Section 6 down.
 3. Fill in the three "team to complete" markdown cells (experiment interpretation, error interpretation, recommendation).
 4. Hand-label about 20 rows of `manual_category` in `validation_errors.csv` for the error analysis in the report.
+
+
+** Other Notes I have
+Alternative model: RoBERTa-base. It would likely be a point or two more accurate, but it is about twice the size and cost per prediction, and our errors come mostly from noisy labels and mixed sentiment, which a bigger model wouldn’t fix.
+Why DistilBERT: it keeps most of BERT’s accuracy while being much smaller and faster, which fits the CPU constraint.
+Why CPU is the constraint: a support team usually has no GPUs, message volume is thousands per day with no real-time need, and customer data stays in-house. The run shows about 42,000 reviews an hour on a single CPU thread.
+The 0.90 recall target was set before the final run, based on missed unhappy customers costing more than false flags.
+The unsuccessful experiment for section 6 is Experiment 2.
+Also probably worth mentioning that we used pytorch because thats the easiest to find a compatible pretrained model.
+
+Also in the current draft of the report it mentions selecting experiment 1 because it had the highest validation accuracy but the rubric says not to choose experiments based on that so I can think of ways to reqord that.
